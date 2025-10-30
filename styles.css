@@ -1,0 +1,75 @@
+
+.open-sans-common {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+header{
+    margin: 0px 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    
+    border: 1px solid green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: green;
+}
+
+nav ul li a:hover{
+    background-color: green;
+    color: white;
+}
+
+.banner{
+    background-image: linear-gradient(rgb(96, 199, 96),rgb(196, 202, 196));
+    border-radius: 15px;
+}
+
+.banner-content{
+    padding: 80px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bangladesh{
+    color: rgb(95, 79, 79);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.banner-head{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.banner-btn{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner-btn:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid rgb(29, 235, 115);
+    padding: 3px 8px;
+}
