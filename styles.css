@@ -6,6 +6,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+.sectrion-part{
+    margin: 80px 100px;
+}
 
 header{
     margin: 0px 100px;
@@ -73,3 +76,38 @@ nav ul li a:hover{
     border: 2px solid rgb(29, 235, 115);
     padding: 3px 8px;
 }
+
+/* header and banner styles end  */
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    margin: 10px 15px;
+    background-color: rgb(245, 241, 235);
+    padding: 10px;
+    border-radius: 5px;
+    width: 25%;
+    height: 280px;
+    box-shadow: 0px  0px 10px 3px  rgb(173, 205, 173);
+}
+
+.card:hover{
+    box-shadow: 0px  0px 10px 3px  rgb(188, 122, 110);
+}
+
+.card h6{
+    font-size: 20px;
+    margin: 10px 0px; 
+}
+
+.card p{
+    color: rgb(83, 83, 74);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Pillers styles end  */
