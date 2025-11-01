@@ -93,7 +93,7 @@ nav ul li a:hover{
 
 .card{
     margin: 10px 15px;
-    background-color: rgb(245, 241, 235);
+    background-color: rgb(253, 253, 253);
     padding: 10px;
     border-radius: 5px;
     width: 25%;
@@ -125,9 +125,269 @@ nav ul li a:hover{
     margin-top: 30px;
 }
 
-.vision-card{
-    background-color: aqua;
+.vision-card-1{
+    background-color: rgb(158, 239, 158);
     margin: 20px;
     padding: 10px 20px;
+    border-radius: 10px;
+    width: 33%;
+    height: 300px;
+}
+.v-btn1{
+    background-color: green;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
     border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+
+.vision-card-2{
+    background-color: rgb(159, 155, 241);
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+     width: 33%;
+    height: 300px;
+}
+
+.v-btn2{
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+
+.vision-card-3{
+    background-color: rgb(241, 194, 155);
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+     width: 33%;
+    height: 300px;
+}
+
+.v-btn3{
+    background-color: orangered;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+
+.v-btn:hover{
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    
+}
+
+/* vission styles end  */
+
+.Dr-younus{
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 0px  0px 10px 3px  rgb(203, 199, 199);
+    padding: 10px;
+}
+
+.younus-textP{
+    text-align:justify;
+    padding: 10px 0px;
+}
+
+.Dr-younus h3{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* Dr-younus styles end  */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-content{
+     background-color: aliceblue;
+     border-radius: 15px;
+     padding: 20px;
+     box-shadow: 0px  0px 10px 3px  rgb(203, 199, 199);
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+th {
+  padding: 12px;
+  /* padding-bottom: 12px; */
+  text-align: left;
+  background-color: #c4afed;
+  color: black;
+}
+
+.tb-width{
+    width: 80%;
+}
+
+.option{
+      background-color: #c4afed;
+      border: 1px solid #999595;
+      padding: 8px;
+      border-radius: 5px;
+      margin-left: 20px;
+}
+
+/* opinion styles end  */
+
+.new-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+     border-radius: 15px;
+     padding: 30px;
+     box-shadow: 0px  0px 10px 3px  rgb(203, 199, 199);
+     margin: 30px 0px;
+}
+
+.news-text h2{
+    margin-top: 0px;
+}
+.date{
+    margin-right: 20px;
+}
+
+.news-img img{
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.news-btn{
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.news-btn:hover{
+    background-color: white;
+    color: green;
+}
+
+/* recent news  styles end*/
+
+.Donate{
+    text-align: center;
+}
+
+.pay-btn{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: aliceblue;
+    margin: 10px;
+    box-shadow: 0px  0px 10px 3px  rgb(203, 199, 199);
+}
+
+.pay-btn:hover{
+    background-color: rgb(191, 235, 191);
+}
+.btn-200{
+   background-color: rgb(191, 235, 191); 
+}
+
+.donate-input{
+     background-color: aliceblue;
+    margin: 10px;
+    box-shadow: 0px  0px 10px 3px  rgb(203, 199, 199);
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0px;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+}
+
+/* donate styles end  */
+
+.subscribe{
+     background-color: rgb(191, 235, 191); 
+    text-align: center; 
+    border-radius: 15px;
+}
+.subscribe-content{
+    padding: 30px 0px;
+}
+.subs-text{
+    padding: 5px 50px;
+}
+.s-input1{
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+     background-color: aliceblue;
+    margin: 10px;
+    box-shadow: 0px  0px 10px 3px  rgb(203, 199, 199);
+    height: 35px;
+    width: 40%;
+    padding-left: 20px;
+}
+
+.s-input2{
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: green;
+    margin: 10px;
+    box-shadow: 0px  0px 10px 3px  rgb(203, 199, 199);
+    height: 37px;
+    width: 10%;
+    color: white; 
+    margin-left:-30px;
+}
+
+.s-input2:hover{
+    background-color: red;
+    
+}
+
+/* subscribe styles end  */
+
+footer{
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgb(203, 199, 199);
+    padding: 50px;
+}
+
+footer hr{
+    width: 80%;
+}
+
+
+.footer-icon{
+    margin-top: 30px;
+}
+
+.icon{
+    margin-left: 20px;
 }
